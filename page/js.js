@@ -270,3 +270,9 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    let audio = document.getElementById("backgroundMusic");
+    audio.volume = 0.2; // Ajusta el volumen entre 0.0 (silencio) y 1.0 (máximo)
+});
+
+
